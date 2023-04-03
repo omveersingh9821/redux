@@ -27,6 +27,41 @@
 .App-link {
   color: #61dafb;
 }
+.cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.cart-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  border: 1px solid #eee;
+  margin: 10px;
+  padding: 10px;
+}
+
+.text-wrapper{
+  margin-right: 15px;
+}
+.img-wrapper img{
+  width: 130px;
+}
+.item span{
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+.btn-wrapper img{
+  width: 40px;
+  margin-right: 5px;
+}
+
 
 @keyframes App-logo-spin {
   from {
